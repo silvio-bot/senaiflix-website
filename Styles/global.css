@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Roboto";
+    outline: none;
+
+}
+
+.cabecalho {
+
+    background-color:black;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    height: 80px;
+
+
+}
+
+.link
+    {
+        color: white;
+       
+        
+    
+    }
+
+.texto {
+
+        color: blue;
+        font-size: 30px;
+
+
+}
+    
+.banner {
+
+    background-image: url(../image/capa-filme-o-corvo-2.PNG);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+
+
+
+}
+
+.banner h1 {
+
+    padding-top: 300px;
+    color: white;
+    margin-left: 15%;
+
+}
+
+.banner p {
+
+    color: rgba(255, 255, 255, 0.89);
+    width: 40%;
+    height: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: rgba(252, 251, 251, 0.24);
+    margin-left: 15%;
+    text-align: justify;
+
+}
+
+.filmes-e-series {
+
+    background-color: black;
+
+}
+
+.filmes-e-series  .inputs {
+
+
+display: flex;
+
+
+}
+
+.filmes-e-series .inputs label {
+
+    color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+    margin-right: 10px;
+
+
+
+}
+
+.filmes-e-series .inputs label input,
+.filmes-e-series .inputs label select {
+
+    width: 250px;
+    margin-top: 10px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    padding: 5px;
+
+}
+
+
+
+.filmes-e-series h2 {
+
+       color: white;
+    margin-top: 10px;
+ 
+   }
+
+.filmes-e-series .card-container {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.filmes-e-series .card1 {
+
+    width: 250px;
+    height: 365px;
+    background-image: url('../image/A\ Forja.jpg');
+    background-size: cover;
+    
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.filmes-e-series .card2 {
+
+    width: 250px;
+    height: 365px;
+    background-image: url('../image/Segredo\ de\ Dumbledore.jpg');
+    background-size: cover;
+    
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.filmes-e-series .card3 {
+
+    width: 250px;
+    height: 365px;
+    background-image: url('../image/Interestelar.jpg');
+    background-size: cover;
+    
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.filmes-e-series .card4 {
+
+    width: 250px;
+    height: 365px;
+    background-image: url('../image/capa-filme-o-corvo-2.PNG');
+    background-size: cover;
+    
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.filmes-e-series .card5 {
+
+    width: 250px;
+    height: 365px;
+    background-image: url('../image/Moinho.jpg');
+    background-size: cover;
+    
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.filmes-e-series .card6 {
+
+    width: 250px;
+    height: 365px;
+    background-image: url('../image/download.jpg');
+    background-size: cover;
+    
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.icons-container {
+
+    width: 50px;
+    display: flex;
+    background-color: black;
+
+}
+
+footer {
+
+    background-color: black;
+
+}
+
+
+
+footer p {
+
+    color: white;
+    margin-bottom: 10px;
+       
+
+}
+
+footer .cons-container{
+
+    display: flex;
+    
+
+}
+
+footer .icons-container img {
+
+    height: 50px;
+    margin-right: 50px;
+
+}
+
+@media (max-width: 768px) {
+    .filmes-e-series .inputs label {
+
+    }
+    
+    .filmes-e-series .card-container {
+
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .filmes-e-series .card-container .card {
+
+        width: 40%;
+        height: 230px;
+        margin-bottom: 10px;
+    }
+
+    .cabecalho {
+
+        display: none;
+
+    }
+
+    #cabecalho-mobile {
+
+            height: 100vh;
+            width: 100%;
+            background-color: black;
+            position: fixed;
+            
+
+
+    }
+
+    #cabecalho-mobile nav {
+
+        
+        display: flex;
+        flex-direction: column;
+        padding-top: 20vh;
+        padding-left: 15px;
+
+    }
+
+    #cabecalho-mobile nav a {
+
+        color: white;
+        font-size: 4em;
+        margin-bottom: 40px;
+
+    }
+
+}
+
+.filmes-e-series .inputs {
+
+
+}
+

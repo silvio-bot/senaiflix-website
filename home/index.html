@@ -1,115 +1,155 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SENAIFLIX - Filmes e Séries</title>
-    <link rel="stylesheet" href="../assets/styles/global.css">
-
+    <title>ReforçoFlix</title>
+    <link rel="stylesheet" href="../Styles/global.css">
 </head>
 <body>
+    
+    <header class="cabecalho">
 
-    <header>
+        <div>ReforçoFlix</div>
 
+       
         <div>
-            
-            <a class="logo" href="/home/">SENAIFLIX</a>
-
+            <a class = "link" href="">Início</a>
+            <a class = "link" href="">Filmes</a>
+            <a class = "link" href="">Séries</a>
+        
         </div>
 
-        <nav>
+               
 
-            <a href="#">Início</a>
-            <a href="#">Filmes</a>
-            <a href="#">Séries</a>
-
-        </nav>
-        
     </header>
+
+    <header id="cabecalho-mobile">
+
+        <button class="botão-de-fechar">
+
+            <img src="../image/xmark-solid.svg">
+
+
+
+        </button>
+
+        <nav>
+            <a class = "link" href="">Início</a>
+            <a class = "link" href="">Filmes</a>
+            <a class = "link" href="">Séries</a>
+        
+        </nav>
+
+    </header>
+
+
+    <nav>
+        <a class = "link" href="">Início</a>
+        <a class = "link" href="">Filmes</a>
+        <a class = "link" href="">Séries</a>
     
+    </nav>
+
+
     <main>
 
-        <section class="banner">
+        <div class=banner>
+            <h1>O Corvo 2024</h1>
+            <p>Na noite antes de seu casamento, o músico Eric Draven e sua noiva são brutalmente assassinados por membros de uma gangue violenta do centro da cidade. No aniversário da sua morte, Eric sai de sua sepultura e assume o manto gótico do Corvo, um vingador sobrenatural, rastreando os bandidos responsáveis pelo crime que os assassinaram impiedosamente. Eric finalmente confronta o líder gangster Top Dollar para completar sua missão macabra.</p>
+        </div>
 
-            <div class="textos">
-
-                <h1>Thor Ragnarok!</h1>        
-                <p>Após a morte de seu pai, Thor precisa lutar com sua meia irmã para salvar Asgard!Após a morte de seu pai, Thor precisa lutar com sua meia irmã para salvar Asgard!Após a morte de seu pai, Thor precisa lutar com sua meia irmã para salvar Asgard!Após a morte de seu pai, Thor precisa lutar com sua meia irmã para salvar Asgard!Após a morte de seu pai, Thor precisa lutar com sua meia irmã para salvar Asgard!Após a morte de seu pai, Thor precisa lutar com sua meia irmã para salvar Asgard!Após a morte de seu pai, Thor precisa lutar com sua meia irmã para salvar Asgard!</p>
-
-            </div>
-
-            <div class="gradiente-de-baixo"></div>
-
-        </section>
-
-        <section class="filmes-series">
-
+        <div class="filmes-e-series">
+    
+           
             <div class="inputs">
 
                 <label>
-                    Pesquise por filmes e/ou séries:
-                    <input placeholder="Insira um título"></input>
-                </label>
+
+                    Pesquise por filmes ou séries:
+
+                    <input type="text" placeholder="Insira um título">
+
+                 </label>
                 
-                <label>
-                    Filtrar por gênero:
-                    <select name="genero">
-                        <option selected value="">Selecione um gênero</option>
-                        <option value="1">Gênero 1</option>
-                        <option value="2">Gênero 2</option>
-                        <option value="3">Gênero 3</option>
+                 <label>
+                        Filtrar por Genêro:
+                    <select>
+
+                        <option value="">Selecione um gênero</option>
+                        <option value="">Genêro 1</option>
+                        <option value="">Genêro 2</option>
+                        <option value="">Genêro 3</option>
+                        <option value="">Genêro 4</option>
+                        <option value="">Genêro 5</option>
+
+
                     </select>
-                </label>
+
+                 </label>
+
+                 
 
             </div>
 
             <h2>Filmes</h2>
 
             <div class="card-container">
+                <div class="card1"></div>
+                <div class="card2"></div>
+                <div class="card3"></div>
+                <div class="card4"></div>
+                <div class="card5"></div>
+                <div class="card6"></div>
 
-                <a href="/detalhes-do-filme/" class="card"></a>
-                <a href="/detalhes-do-filme/" class="card"></a>
-                <a href="/detalhes-do-filme/" class="card"></a>
-                <a href="/detalhes-do-filme/" class="card"></a>
-                <a href="/detalhes-do-filme/" class="card"></a>
-                <a href="/detalhes-do-filme/" class="card"></a>
+
 
             </div>
-            
-        </section>
-
-        <section class="filmes-series">
 
             <h2>Séries</h2>
 
             <div class="card-container">
+                <div class="card1"></div>
+                <div class="card2"></div>
+                <div class="card3"></div>
+                <div class="card4"></div>
+                <div class="card5"></div>
+                <div class="card6"></div>
 
-                <a href="/detalhes-do-filme/" class="card"></a>
-                <a href="/detalhes-do-filme/" class="card"></a>
-                <a href="/detalhes-do-filme/" class="card"></a>
-                <a href="/detalhes-do-filme/" class="card"></a>
-                <a href="/detalhes-do-filme/" class="card"></a>
-                <a href="/detalhes-do-filme/" class="card"></a>
+
 
             </div>
-            
-        </section>
 
+                
+        </div>
+
+       
+
+        <div class="card">
+            <a class="card"href="">
+
+            </a>
+           
+
+          
+
+        
+        </div>
+
+  
     </main>
 
     <footer>
 
-        <p>Nos siga nas redes sociais.</p>
+        <p>Nos siga nas redes sociais</p>
 
         <div class="icons-container">
-
-            <img src="../assets/imgs/twitter-brands-solid.svg" alt="ícone do facebook.">
-
-            <img src="../assets/imgs/twitter-brands-solid.svg" alt="ícone do instagram.">
-
-            <img src="../assets/imgs/twitter-brands-solid.svg" alt="ícone do twitter.">
-        
+            
+            <img src="../image/facebook-brands-solid.svg"alt="ícone do facebook.">
+            <img src="../image/instagram-brands-solid.svg"alt="ícone do instagram">
+            <img src="../image/twitch-brands-solid.svg"alt="ícone do twitter.">
+            
+            
         </div>
 
     </footer>
